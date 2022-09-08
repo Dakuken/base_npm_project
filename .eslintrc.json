@@ -15,39 +15,25 @@
         "@typescript-eslint"
     ],
     "rules": {
-        "import/no-extraneous-dependencies":0,
-        "no-underscore-dangle":0,
-        "default-param-last":0,
-        "max-len":0,
-        "for-direction": 0,
-        "import/no-unresolved": 0,
-        "import/extensions": 0,
-        "no-restricted-globals": 0,
-        "consistent-return": 0, // pour les return 
-        "no-return-assign": 0, // empecher les return auto
-        "prefer-const": 0, // ne pas mettre const au lieu de let
-        "no-param-reassign": 0, // pouvoir reassigner les variable
-        "block-scoped-var": 0, // ne pas bloquer les var
-        "no-use-before-define": 0, // chiant pour notre projet 
-        "no-undef": 0, // chiant pour notre projet 
-        "no-unused-vars": 0, // chiant pour notre projet
+        "import/no-extraneous-dependencies": 0, // pour les imports
+        "max-len": 0, // logique
+        "import/no-unresolved": 0, // erreur import dans mes fichiers
+        "import/extensions": 0, // parce qu'on mets pas les extension à la fin du fichier
+        "no-param-reassign": 0, // pouvoir reassigner les variable (c'est cool en vrai)
         "no-plusplus": 0, //pouvoir laisser les "++"
-        "no-var": 0, // laisser les var
-        "vars-on-top": 0, //ne ppas etre obligé de déclarer les var en haut
         "indent": [
             "error",
             4
-        ], // nb espace par indent
+        ], // nb espace par indent (j'adore 4)
         "max-classes-per-file": [
             "error",
-            3
+            1
         ], // max de classe par fichier
         "no-console": "off", // a remove pour les console.log()
-        "no-mixed-spaces-and-tabs": 0, //pas mélanger space et tab
         "linebreak-style": 0, //empecher le bug quand on change de linux/ window
         "class-methods-use-this": 0, // laisser les this normaux
         "space-unary-ops": [
-            2,
+            0,
             {
                 "words": true,
                 "nonwords": true,
